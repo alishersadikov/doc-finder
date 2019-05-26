@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'doctors#index'
 
+  resources :doctors, only: [:index]
   # route for search endpoint
   post 'search' => 'doctors#search'
 
