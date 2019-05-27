@@ -12,12 +12,26 @@ class DoctorSearchService
   end
 
   def process
-    fetched_doctors.map do |doc_data|
-      Doctor.new(data: doc_data)
-    end
+    find_or_create_doctors
   end
 
   private
+
+  def find_or_create_doctors
+    fetched_doctors.map do |doc_data|
+      doc_presenter = DoctorPresenter.new(data: doc_data)
+      doctor = Doctor.find_or_initialize_by(name: doc_presenter.name,
+                                            title: doc_presenter.title)
+
+      # if found, the info will be refreshed
+      doctor.specialties = doc_presenter.specialties
+      doctor.insurances = doc_presenter.insurances
+      doctor.primary_care_physician = doc_presenter.primary_care_physician
+      doctor.save!
+
+      doctor
+    end
+  end
 
   def fetched_doctors
     search_response = search_for_doctors
