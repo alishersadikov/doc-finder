@@ -1,0 +1,11 @@
+<div style="width: 100%; padding: 10px; text-align:center;">
+  <h2>Doctors:</h2>
+
+  <ul style="list-style-type:none;">
+    <% @doctors.each do |doctor| %>
+      <li>
+        <%= link_to "#{doctor.name}, #{doctor.title}", doctor_path(doctor) %>
+      </li>
+    <% end %>
+  </ul>
+</div>

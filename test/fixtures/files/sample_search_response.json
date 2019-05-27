@@ -1,0 +1,1439 @@
+{
+    "meta": {
+        "data_type": "array",
+        "item_type": "Doctor",
+        "total": 49620,
+        "count": 5,
+        "skip": 0,
+        "limit": 5
+    },
+    "data": [
+        {
+            "practices": [
+                {
+                    "location_slug": "ca-covina",
+                    "lat": 34.08644,
+                    "lon": -117.88983,
+                    "uid": "baae521b601016a649a506c7e39fad48",
+                    "name": "John Yu, DDS",
+                    "accepts_new_patients": true,
+                    "insurance_uids": [
+                        "assurant-assurantdha",
+                        "assurant-assurantdhapremier"
+                    ],
+                    "visit_address": {
+                        "city": "Covina",
+                        "lat": 34.08644,
+                        "lon": -117.88983,
+                        "state": "CA",
+                        "state_long": "California",
+                        "street": "100 S Citrus Ave",
+                        "street2": "Ste 201",
+                        "zip": "91723"
+                    },
+                    "office_hours": [],
+                    "phones": [
+                        {
+                            "number": "6269671337",
+                            "type": "landline"
+                        }
+                    ],
+                    "languages": [
+                        {
+                            "name": "English",
+                            "code": "en"
+                        }
+                    ]
+                }
+            ],
+            "educations": [],
+            "profile": {
+                "first_name": "John",
+                "middle_name": "John",
+                "last_name": "Yu",
+                "slug": "john-yu-6",
+                "title": "DDS",
+                "image_url": "https://asset2.betterdoctor.com/assets/general_doctor_male.png",
+                "gender": "male",
+                "languages": [
+                    {
+                        "name": "English",
+                        "code": "en"
+                    }
+                ],
+                "bio": "Dr. John Yu, DDS treats patients in Irvine, California, San gabriel, California, and Montebello, California and specializes in endodontics.\n\nDr. Yu is licensed to see patients in California.\n\nDr. Yu has successfully passed a background check including a medical license verification (active) and screening for malpractice history (none found)."
+            },
+            "ratings": [],
+            "insurances": [
+                {
+                    "insurance_plan": {
+                        "uid": "assurant-assurantdha",
+                        "name": "Assurant DHA",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "assurant",
+                        "name": "Assurant"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "assurant-assurantdhapremier",
+                        "name": "Assurant DHA Premier",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "assurant",
+                        "name": "Assurant"
+                    }
+                }
+            ],
+            "specialties": [
+                {
+                    "uid": "endotontist",
+                    "name": "Endodontics",
+                    "description": "Specializes in root canal and other similar issues.",
+                    "category": "dental",
+                    "actor": "Endotontist",
+                    "actors": "Endotontists"
+                }
+            ],
+            "licenses": [
+                {
+                    "number": "57248",
+                    "state": "CA"
+                }
+            ],
+            "uid": "77e3bdf340dd72db702aacff6709adf0",
+            "npi": "1386963361"
+        },
+        {
+            "practices": [
+                {
+                    "location_slug": "md-baltimore",
+                    "lat": 39.29687,
+                    "lon": -76.59241,
+                    "uid": "340ada57154542705abae15ed8f5eb09",
+                    "name": "John Ok, MD",
+                    "accepts_new_patients": true,
+                    "insurance_uids": [
+                        "cigna-cignaopenaccessplus",
+                        "coventryhealthcare-coventrysouthernhealthppo",
+                        "coventryhealthcare-coventryppode",
+                        "cigna-cignahmo",
+                        "cigna-cignappo",
+                        "humana-humanachoicecarenetworkppo",
+                        "multiplan-phcsppo",
+                        "multiplan-multiplanppo",
+                        "geisingerhealthplan-geisingerhealthplan",
+                        "coventryhealthcare-coventryhealthamericappo",
+                        "coventryhealthcare-coventryhealthamericahmo",
+                        "coventryhealthcare-carelinkppowv",
+                        "bcbsbluecard-bcbsbluecardppo",
+                        "aetna-aetnasignatureadministratorsppo",
+                        "aetna-aetnamanagedchoiceposopenaccess",
+                        "aetna-aetnachoiceposii",
+                        "aetna-aetnaselect",
+                        "aetna-aetnahmo",
+                        "emblemhealth-emblemhealthppoghi",
+                        "aetna-aetnaadvantage6350hix",
+                        "aetna-aetnabasichix",
+                        "bcbsflorida-floridablueblueoptionshix",
+                        "humana-humanahmopremierhix",
+                        "healthnet-healthnetindividualfamilyppohix",
+                        "anthem-blueviewvision",
+                        "blueshieldofcalifornia-blueshieldcabasicppobronzelevelhix",
+                        "cigna-vision",
+                        "vsp-vsp",
+                        "humana-humanasanantoniohmoxhix",
+                        "ibcamerihealth-amerihealthlocalvaluenetworkepoposppohix",
+                        "ibcamerihealth-amerihealthlocalvaluenetworkhmohmoposhix",
+                        "ibcamerihealth-amerihealthregionalprefntwkepoposppohix",
+                        "ibcamerihealth-amerihealthregionalprefntwkhmohmoposhix",
+                        "magnacare-magnacareextrahealthrepublichix",
+                        "premerabcbs-premeraheritagesignaturehix",
+                        "premerabcbs-lifewiseconnecthix",
+                        "medicare-medicare",
+                        "medicaid-medicaid",
+                        "aetna-aetnamdbronzesilverandgoldhmo",
+                        "healthnet-bluegoldhmo",
+                        "healthnet-hmoexcelcaresilvernetwork",
+                        "healthnet-hmoexcelcaresilvernetworkmedicarecob",
+                        "anthembluecrossblueshield-golddirectaccesspluswhsa",
+                        "anthembluecrossblueshield-bronzedirectaccessplusgjqa",
+                        "carefirstbluecrossblueshield-carefirstbluechoiceadvantage",
+                        "carefirstbluecrossblueshield-carefirstbluechoicentwkpos",
+                        "carefirstbluecrossblueshield-carefirstbluepreferredppo",
+                        "carefirstbluecrossblueshield-carefirstmarylandpos",
+                        "gwhcigna-greatwestppo",
+                        "unitedhealthcare-uhcchoicepluspos",
+                        "unitedhealthcare-uhcnavigatehmo",
+                        "unitedhealthcare-uhcnavigatepos",
+                        "unitedhealthcare-uhcoptionsppo",
+                        "firsthealthcoventryhealthcare-firsthealthppo"
+                    ],
+                    "visit_address": {
+                        "city": "Baltimore",
+                        "lat": 39.29687,
+                        "lon": -76.59241,
+                        "state": "MD",
+                        "state_long": "Maryland",
+                        "street": "600 N Wolfe St",
+                        "zip": "21287"
+                    },
+                    "office_hours": [],
+                    "phones": [
+                        {
+                            "number": "4109553116",
+                            "type": "landline"
+                        }
+                    ],
+                    "languages": [
+                        {
+                            "name": "English",
+                            "code": "en"
+                        }
+                    ]
+                }
+            ],
+            "educations": [],
+            "profile": {
+                "first_name": "John",
+                "middle_name": "Y.",
+                "last_name": "Ok",
+                "slug": "john-ok",
+                "title": "MD",
+                "image_url": "https://asset3.betterdoctor.com/assets/general_doctor_male.png",
+                "gender": "male",
+                "languages": [
+                    {
+                        "name": "English",
+                        "code": "en"
+                    }
+                ],
+                "bio": "Dr. John Ok, MD specializes in anesthesiology, and currently sees patients in Baltimore, Maryland.\n\nDr. Ok is licensed to treat patients in Maryland.\n\nIn addition to having active medical licenses, Dr. Ok has passed an automated background check which looked at elements including medical license status and malpractice screening (no history found)."
+            },
+            "ratings": [],
+            "insurances": [
+                {
+                    "insurance_plan": {
+                        "uid": "cigna-cignaopenaccessplus",
+                        "name": "CIGNA Open Access Plus",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "cigna",
+                        "name": "Cigna"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "coventryhealthcare-coventrysouthernhealthppo",
+                        "name": "Coventry Southern Health PPO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "aetna",
+                        "name": "Aetna"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "coventryhealthcare-coventryppode",
+                        "name": "Coventry PPO - DE",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "aetna",
+                        "name": "Aetna"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "cigna-cignahmo",
+                        "name": "CIGNA HMO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "cigna",
+                        "name": "Cigna"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "cigna-cignappo",
+                        "name": "CIGNA PPO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "cigna",
+                        "name": "Cigna"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "humana-humanachoicecarenetworkppo",
+                        "name": "Humana ChoiceCare Network PPO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "humana",
+                        "name": "Humana"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "multiplan-phcsppo",
+                        "name": "PHCS PPO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "multiplan",
+                        "name": "Multiplan"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "multiplan-multiplanppo",
+                        "name": "Multiplan PPO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "multiplan",
+                        "name": "Multiplan"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "geisingerhealthplan-geisingerhealthplan",
+                        "name": "Geisinger Health Plan",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "geisingerhealth",
+                        "name": "Geisinger Health"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "coventryhealthcare-coventryhealthamericappo",
+                        "name": "Coventry HealthAmerica PPO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "aetna",
+                        "name": "Aetna"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "coventryhealthcare-coventryhealthamericahmo",
+                        "name": "Coventry HealthAmerica HMO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "aetna",
+                        "name": "Aetna"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "coventryhealthcare-carelinkppowv",
+                        "name": "CareLink PPO - WV",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "aetna",
+                        "name": "Aetna"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "bcbsbluecard-bcbsbluecardppo",
+                        "name": "BCBS Blue Card PPO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "bcbs",
+                        "name": "BCBS"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "aetna-aetnasignatureadministratorsppo",
+                        "name": "Aetna Signature Administrators PPO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "aetna",
+                        "name": "Aetna"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "aetna-aetnamanagedchoiceposopenaccess",
+                        "name": "Aetna Managed Choice POS Open Access",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "aetna",
+                        "name": "Aetna"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "aetna-aetnachoiceposii",
+                        "name": "Aetna Choice POS II",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "aetna",
+                        "name": "Aetna"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "aetna-aetnaselect",
+                        "name": "Aetna Select",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "aetna",
+                        "name": "Aetna"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "aetna-aetnahmo",
+                        "name": "Aetna HMO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "aetna",
+                        "name": "Aetna"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "emblemhealth-emblemhealthppoghi",
+                        "name": "EmblemHealth PPO GHI",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "emblemhealth",
+                        "name": "EmblemHealth"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "aetna-aetnaadvantage6350hix",
+                        "name": "Advantage 6350 - HIX",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "aetna",
+                        "name": "Aetna"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "aetna-aetnabasichix",
+                        "name": "Basic - HIX",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "aetna",
+                        "name": "Aetna"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "bcbsflorida-floridablueblueoptionshix",
+                        "name": "Florida Blue - BlueOptions - HIX",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "bluecrossblueshieldoffloridabcbsfl",
+                        "name": "BCBS"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "humana-humanahmopremierhix",
+                        "name": "HMO - Premier HIX",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "humana",
+                        "name": "Humana"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "healthnet-healthnetindividualfamilyppohix",
+                        "name": "Health Net Individual  Family - PPO  HIX",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "healthnet",
+                        "name": "HealthNet"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "anthem-blueviewvision",
+                        "name": "Blue View Vision",
+                        "category": [
+                            "vision"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "anthembluecross",
+                        "name": "BCBS"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "blueshieldofcalifornia-blueshieldcabasicppobronzelevelhix",
+                        "name": "Basic PPO - Bronze level HIX",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "blueshieldofcalifornia",
+                        "name": "BCBS"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "cigna-vision",
+                        "name": "Vision",
+                        "category": [
+                            "vision"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "cigna",
+                        "name": "Cigna"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "vsp-vsp",
+                        "name": "VSP",
+                        "category": [
+                            "vision"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "vsp",
+                        "name": "VSP"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "humana-humanasanantoniohmoxhix",
+                        "name": "San Antonio - HMOx HIX",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "humana",
+                        "name": "Humana"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "ibcamerihealth-amerihealthlocalvaluenetworkepoposppohix",
+                        "name": "AmeriHealth Local Value Network - EPO POS PPO HIX",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "ibcamerihealth",
+                        "name": "BCBS"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "ibcamerihealth-amerihealthlocalvaluenetworkhmohmoposhix",
+                        "name": "AmeriHealth Local Value Network - HMO HMO POS HIX",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "ibcamerihealth",
+                        "name": "BCBS"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "ibcamerihealth-amerihealthregionalprefntwkepoposppohix",
+                        "name": "AmeriHealth Regional Pref Network - EPO POS PPO HIX",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "ibcamerihealth",
+                        "name": "BCBS"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "ibcamerihealth-amerihealthregionalprefntwkhmohmoposhix",
+                        "name": "AmeriHealth Regional Pref Network - HMO HMO POS HIX",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "ibcamerihealth",
+                        "name": "BCBS"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "magnacare-magnacareextrahealthrepublichix",
+                        "name": "Extra Health Republic - HIX",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "magnacare",
+                        "name": "Magnacare"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "premerabcbs-premeraheritagesignaturehix",
+                        "name": "Premera Heritage Signature - HIX",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "premerabluecrossblueshield",
+                        "name": "BCBS"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "premerabcbs-lifewiseconnecthix",
+                        "name": "LifeWise Connect - HIX",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "premerabluecrossblueshield",
+                        "name": "BCBS"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "medicare-medicare",
+                        "name": "Medicare",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "medicare",
+                        "name": "Medicare"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "medicaid-medicaid",
+                        "name": "Medicaid",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "medicaid",
+                        "name": "Medicaid"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "aetna-aetnamdbronzesilverandgoldhmo",
+                        "name": "MD Bronze Silver  Gold - HMO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "aetna",
+                        "name": "Aetna"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "healthnet-bluegoldhmo",
+                        "name": "Blue  Gold - HMO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "healthnet",
+                        "name": "HealthNet"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "healthnet-hmoexcelcaresilvernetwork",
+                        "name": "HMO - ExcelCare  Silver Network",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "healthnet",
+                        "name": "HealthNet"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "healthnet-hmoexcelcaresilvernetworkmedicarecob",
+                        "name": "HMO - ExcelCare  Silver Network Medicare COB",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "healthnet",
+                        "name": "HealthNet"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "anthembluecrossblueshield-golddirectaccesspluswhsa",
+                        "name": "Gold DirectAccess Plus with HSA",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "anthembluecrossblueshield",
+                        "name": "BCBS"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "anthembluecrossblueshield-bronzedirectaccessplusgjqa",
+                        "name": "Bronze DirectAccess Plus - gjqa",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "anthembluecrossblueshield",
+                        "name": "BCBS"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "carefirstbluecrossblueshield-carefirstbluechoiceadvantage",
+                        "name": "CareFirst BlueChoice Advantage",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "bcbs",
+                        "name": "BCBS"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "carefirstbluecrossblueshield-carefirstbluechoicentwkpos",
+                        "name": "CareFirst BlueChoice Ntwk POS",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "bcbs",
+                        "name": "BCBS"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "carefirstbluecrossblueshield-carefirstbluepreferredppo",
+                        "name": "CareFirst BluePreferred PPO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "bcbs",
+                        "name": "BCBS"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "carefirstbluecrossblueshield-carefirstmarylandpos",
+                        "name": "CareFirst Maryland POS",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "bcbs",
+                        "name": "BCBS"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "gwhcigna-greatwestppo",
+                        "name": "Great West PPO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "cigna",
+                        "name": "Cigna"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "unitedhealthcare-uhcchoicepluspos",
+                        "name": "UHC Choice Plus POS",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "unitedhealthcare",
+                        "name": "United Healthcare"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "unitedhealthcare-uhcnavigatehmo",
+                        "name": "UHC Navigate HMO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "unitedhealthcare",
+                        "name": "United Healthcare"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "unitedhealthcare-uhcnavigatepos",
+                        "name": "UHC Navigate POS",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "unitedhealthcare",
+                        "name": "United Healthcare"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "unitedhealthcare-uhcoptionsppo",
+                        "name": "UHC Options PPO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "unitedhealthcare",
+                        "name": "United Healthcare"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "firsthealthcoventryhealthcare-firsthealthppo",
+                        "name": "First Health PPO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "aetna",
+                        "name": "Aetna"
+                    }
+                }
+            ],
+            "specialties": [
+                {
+                    "uid": "anesthesiologist",
+                    "name": "Anesthesiology",
+                    "description": "Specializes in managing pain and anesthesia in surgeries.",
+                    "category": "medical",
+                    "actor": "Anesthesiologist",
+                    "actors": "Anesthesiologists"
+                }
+            ],
+            "claims": [
+                {
+                    "hcpcs": "00142",
+                    "hcpcs_description": "Anesthesia, lens surgery",
+                    "service_cnt": 74,
+                    "bene_uniq_cnt": 74,
+                    "avg_allowed_amt": 104.6627027,
+                    "avg_charge_amt": 775.94594595,
+                    "avg_payment_amt": 82.289864865
+                },
+                {
+                    "hcpcs": "00740",
+                    "hcpcs_description": "Anesthesia, upper gastrointestinal endoscopic procedure",
+                    "service_cnt": 42,
+                    "bene_uniq_cnt": 41,
+                    "avg_allowed_amt": 114.75833333,
+                    "avg_charge_amt": 842.67238095,
+                    "avg_payment_amt": 91.056666667
+                },
+                {
+                    "hcpcs": "36620",
+                    "hcpcs_description": "Insertion catheter, artery",
+                    "service_cnt": 36,
+                    "bene_uniq_cnt": 36,
+                    "avg_allowed_amt": 54.01,
+                    "avg_charge_amt": 199,
+                    "avg_payment_amt": 43.21
+                },
+                {
+                    "hcpcs": "00140",
+                    "hcpcs_description": "Anesthesia, procedures on eye",
+                    "service_cnt": 27,
+                    "bene_uniq_cnt": 27,
+                    "avg_allowed_amt": 156.85925926,
+                    "avg_charge_amt": 913.33333333,
+                    "avg_payment_amt": 121.88444444
+                },
+                {
+                    "hcpcs": "00810",
+                    "hcpcs_description": "Anesthesia, low intestine scope",
+                    "service_cnt": 13,
+                    "bene_uniq_cnt": 13,
+                    "avg_allowed_amt": 122.27923077,
+                    "avg_charge_amt": 920.76923077,
+                    "avg_payment_amt": 97.823846154
+                },
+                {
+                    "hcpcs": "00520",
+                    "hcpcs_description": "Anesthesia, chest procedure",
+                    "service_cnt": 13,
+                    "bene_uniq_cnt": 13,
+                    "avg_allowed_amt": 131.08384615,
+                    "avg_charge_amt": 976.15384615,
+                    "avg_payment_amt": 104.86692308
+                },
+                {
+                    "hcpcs": "00145",
+                    "hcpcs_description": "Anesthesia, vitreoretinal surgery",
+                    "service_cnt": 13,
+                    "bene_uniq_cnt": 13,
+                    "avg_allowed_amt": 189.64923077,
+                    "avg_charge_amt": 1391.5384615,
+                    "avg_payment_amt": 149.54846154
+                }
+            ],
+            "licenses": [
+                {
+                    "state": "MD",
+                    "end_date": "2013-09-30"
+                },
+                {
+                    "number": "2327"
+                },
+                {
+                    "number": "D0072405",
+                    "state": "MD"
+                }
+            ],
+            "uid": "02d3ccafd63c6b314de8c9432ceca573",
+            "npi": "1548462435"
+        },
+        {
+            "practices": [
+                {
+                    "location_slug": "ca-irvine",
+                    "lat": 33.656885,
+                    "lon": -117.862365,
+                    "uid": "90db98beba8083f0a7851bf972eeb7ca",
+                    "name": "Uc Irvine Medical Center",
+                    "website": "http://www.ucirvinehealth.org/find-a-doctor/c/wayne-chang/",
+                    "accepts_new_patients": true,
+                    "insurance_uids": [
+                        "bcbsbluecard-bcbsbluecardppo",
+                        "multiplan-multiplanppo",
+                        "healthnet-healthnetcabluegoldhmo",
+                        "cigna-cignappo",
+                        "cigna-cignalocalplus",
+                        "healthnet-healthnetcaindividualfamilyppo",
+                        "healthnet-healthnetcalargegroupppo",
+                        "multiplan-phcsppo",
+                        "cigna-cignaopenaccessplus",
+                        "healthnet-healthnetcacoveredcaliforniapposmallgroup",
+                        "premerabluecross-premeraheritagesignature",
+                        "gwhcigna-greatwestppo",
+                        "unitedhealthcare-uhcchoicepluspos",
+                        "unitedhealthcare-uhcnavigatehmo",
+                        "unitedhealthcare-uhcnavigatepos",
+                        "unitedhealthcare-uhcoptionsppo",
+                        "firsthealthcoventryhealthcare-firsthealthppo"
+                    ],
+                    "visit_address": {
+                        "city": "Irvine",
+                        "lat": 33.656885,
+                        "lon": -117.862365,
+                        "state": "CA",
+                        "state_long": "California",
+                        "street": "19722 MacArthur Blvd",
+                        "zip": "92612"
+                    },
+                    "office_hours": [],
+                    "phones": [
+                        {
+                            "number": "8778243627",
+                            "type": "landline"
+                        }
+                    ],
+                    "languages": [
+                        {
+                            "name": "English",
+                            "code": "en"
+                        }
+                    ]
+                }
+            ],
+            "educations": [
+                {
+                    "school": "Tufts University School of Medicine",
+                    "degree": "MD"
+                },
+                {
+                    "school": "UC Irvine Medical Center",
+                    "degree": "Internship"
+                },
+                {
+                    "school": "UC Irvine Medical Center",
+                    "degree": "Residency"
+                },
+                {
+                    "school": "University of Illinois Chicago Christ Hospital  Medical Center",
+                    "degree": "Fellowship"
+                }
+            ],
+            "profile": {
+                "first_name": "John",
+                "last_name": "Fox",
+                "slug": "john-fox",
+                "title": "MD",
+                "image_url": "https://asset1.betterdoctor.com/images/56c67fe408a94f08860034a3-2_thumbnail.jpg",
+                "gender": "male",
+                "languages": [
+                    {
+                        "name": "English",
+                        "code": "en"
+                    }
+                ],
+                "bio": "Dr. John Fox, MD, specialist in emergency medicine, currently practices medicine at Orange, California.\n\nDr. Fox received his medical degree from University Of North Carolina and is licensed to see patients in California.\n\nDr. Fox has been found during an automated background check to be clear of any malpractice history and holds one or more active medical licenses."
+            },
+            "ratings": [],
+            "insurances": [
+                {
+                    "insurance_plan": {
+                        "uid": "bcbsbluecard-bcbsbluecardppo",
+                        "name": "BCBS Blue Card PPO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "bcbs",
+                        "name": "BCBS"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "multiplan-multiplanppo",
+                        "name": "Multiplan PPO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "multiplan",
+                        "name": "Multiplan"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "healthnet-healthnetcabluegoldhmo",
+                        "name": "Health Net CA Blue  Gold HMO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "healthnet",
+                        "name": "Health Net"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "cigna-cignappo",
+                        "name": "CIGNA PPO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "cigna",
+                        "name": "Cigna"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "cigna-cignalocalplus",
+                        "name": "CIGNA LocalPlus",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "cigna",
+                        "name": "Cigna"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "healthnet-healthnetcaindividualfamilyppo",
+                        "name": "Health Net CA Individual  Family PPO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "healthnet",
+                        "name": "Health Net"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "healthnet-healthnetcalargegroupppo",
+                        "name": "Health Net CA Large Group PPO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "healthnet",
+                        "name": "Health Net"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "multiplan-phcsppo",
+                        "name": "PHCS PPO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "multiplan",
+                        "name": "Multiplan"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "cigna-cignaopenaccessplus",
+                        "name": "CIGNA Open Access Plus",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "cigna",
+                        "name": "Cigna"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "healthnet-healthnetcacoveredcaliforniapposmallgroup",
+                        "name": "Health Net CA Covered California PPO - Small Group",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "healthnet",
+                        "name": "Health Net"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "premerabluecross-premeraheritagesignature",
+                        "name": "Premera Heritage Signature",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "bcbs",
+                        "name": "BCBS"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "gwhcigna-greatwestppo",
+                        "name": "Great West PPO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "cigna",
+                        "name": "Cigna"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "unitedhealthcare-uhcchoicepluspos",
+                        "name": "UHC Choice Plus POS",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "unitedhealthcare",
+                        "name": "United Healthcare"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "unitedhealthcare-uhcnavigatehmo",
+                        "name": "UHC Navigate HMO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "unitedhealthcare",
+                        "name": "United Healthcare"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "unitedhealthcare-uhcnavigatepos",
+                        "name": "UHC Navigate POS",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "unitedhealthcare",
+                        "name": "United Healthcare"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "unitedhealthcare-uhcoptionsppo",
+                        "name": "UHC Options PPO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "unitedhealthcare",
+                        "name": "United Healthcare"
+                    }
+                },
+                {
+                    "insurance_plan": {
+                        "uid": "firsthealthcoventryhealthcare-firsthealthppo",
+                        "name": "First Health PPO",
+                        "category": [
+                            "medical"
+                        ]
+                    },
+                    "insurance_provider": {
+                        "uid": "aetna",
+                        "name": "Aetna"
+                    }
+                }
+            ],
+            "specialties": [
+                {
+                    "uid": "emergency-medicine-doctor",
+                    "name": "Emergency Medicine",
+                    "description": "Specializes in immediate emergency care.",
+                    "category": "medical",
+                    "actor": "Emergency Medicine Doctor",
+                    "actors": "Emergency Medicine Doctors"
+                }
+            ],
+            "licenses": [
+                {
+                    "state": "CA"
+                },
+                {
+                    "number": "000000A68221",
+                    "state": "CA"
+                }
+            ],
+            "uid": "ce7767a7432c72de8e470a412363fe26",
+            "npi": "1033299185"
+        },
+        {
+            "practices": [],
+            "educations": [],
+            "profile": {
+                "first_name": "John",
+                "last_name": "Cho",
+                "slug": "john-cho-md-3",
+                "title": "MD",
+                "image_url": "https://asset2.betterdoctor.com/assets/general_doctor_male.png",
+                "gender": "male",
+                "languages": [
+                    {
+                        "name": "English",
+                        "code": "en"
+                    }
+                ],
+                "bio": ""
+            },
+            "ratings": [],
+            "insurances": [],
+            "specialties": [
+                {
+                    "uid": "diagnostic-radiologist",
+                    "name": "Diagnostic Radiology",
+                    "description": "Specializes in imaging via X-rays and ultrasound.",
+                    "category": "medical",
+                    "actor": "Diagnostic Radiologist",
+                    "actors": "Diagnostic Radiologists"
+                }
+            ],
+            "licenses": [
+                {
+                    "number": "MT198731",
+                    "state": "PA"
+                }
+            ],
+            "uid": "7414033241dc1d3e1bc0a4dd11e38807",
+            "npi": "1114245990"
+        },
+        {
+            "practices": [],
+            "educations": [],
+            "profile": {
+                "first_name": "John",
+                "last_name": "Leo",
+                "slug": "john-leo-2",
+                "title": "DDS",
+                "image_url": "https://asset1.betterdoctor.com/assets/general_doctor_male.png",
+                "gender": "male",
+                "languages": [
+                    {
+                        "name": "English",
+                        "code": "en"
+                    }
+                ],
+                "bio": "Dr. John Leo, DDS is one of the most highly rated doctors in the United States. He specializes in dentistry and currently treats patients in Troy, Michigan.\n\nDr. Leo is licensed to practice dentistry at Michigan.\n\nDr. Leo holds the distinction of being rated among the top 20% of doctors in the United States, based on his experience, network and credentials.\n\nDr. Leo has been found during an automated background check to be clear of any malpractice history and holds one or more active medical licenses."
+            },
+            "ratings": [
+                {
+                    "active": true,
+                    "provider": "betterdoctor",
+                    "provider_uid": "45986ae749215128c0a64c5a4f2ab422",
+                    "rating": 4,
+                    "review_count": 0,
+                    "image_url_small": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-4.0.png",
+                    "image_url_small_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-4.0@2x.png",
+                    "image_url_large": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-4.0.png",
+                    "image_url_large_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-4.0@2x.png"
+                }
+            ],
+            "insurances": [],
+            "specialties": [
+                {
+                    "uid": "dentist",
+                    "name": "Dentistry",
+                    "description": "Specializes in teeth and oral health.",
+                    "category": "dental",
+                    "actor": "Dentist",
+                    "actors": "Dentists"
+                }
+            ],
+            "licenses": [
+                {
+                    "number": "16732",
+                    "state": "MI"
+                }
+            ],
+            "uid": "45986ae749215128c0a64c5a4f2ab422",
+            "npi": "1174731087"
+        }
+    ]
+}
