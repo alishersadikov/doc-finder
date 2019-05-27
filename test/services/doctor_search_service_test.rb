@@ -27,9 +27,7 @@ class DoctorSearchServiceTest < ActiveSupport::TestCase
   test 'one of the names is indeed John' do
     docs = DoctorSearchService.new(name: 'John').process
     docs.each do |doc|
-      assert doc[:profile][:first_name].include?('John') ||
-             doc[:profile][:middle_name].include?('John') ||
-             doc[:profile][:last_name].include?('John')
+      assert doc.name.include?('John')
     end
   end
 end

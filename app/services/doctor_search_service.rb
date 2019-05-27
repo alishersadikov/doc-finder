@@ -1,9 +1,10 @@
 class DoctorSearchService
+  class ApiConnectionError < RuntimeError; end
+
   def self.process(**args)
     new(args).process
   end
 
-  class ApiConnectionError < RuntimeError; end
   attr_reader :name
 
   def initialize(name:)
@@ -11,12 +12,14 @@ class DoctorSearchService
   end
 
   def process
-    fetch_doctors
+    fetched_doctors.map do |doc_data|
+      Doctor.new(data: doc_data)
+    end
   end
 
   private
 
-  def fetch_doctors
+  def fetched_doctors
     search_response = search_for_doctors
     parse(search_response.body)[:data]
   end
