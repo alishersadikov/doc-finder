@@ -4,5 +4,6 @@ class DoctorsController < ApplicationController
   end
 
   def search
+    @doctors = DoctorSearchService.process(name: params[:name])
   end
 end
