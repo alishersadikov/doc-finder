@@ -1,0 +1,32 @@
+<table border="1">
+  <thead>
+    <th>Name</th>
+    <th>Title</th>
+    <th>Specialties</th>
+    <th>Insurances</th>
+    <th>PCP</th>
+  </thead>
+  <tbody>
+    <% @doctors.each do |doc| %>
+      <tr>
+        <td><%= doc.name %></td>
+        <td><%= doc.title %></td>
+        <td>
+          <ul>
+            <% doc.specialties.each do |specialty| %>
+              <li><%= specialty %></li>
+            <% end %>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <% doc.insurances.each do |insurance| %>
+              <li><%= insurance %></li>
+            <% end %>
+          </ul>
+        </td>
+        <td> <%= doc.primary_care_physician ? 'Yes' : 'No' %> </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
