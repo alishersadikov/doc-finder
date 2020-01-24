@@ -11,19 +11,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20190527155809) do
+ActiveRecord::Schema.define(version: 20200124143132) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "doctors", force: :cascade do |t|
-    t.string   "name"
-    t.string   "title"
-    t.string   "specialties",            array: true
-    t.string   "insurances",             array: true
-    t.boolean  "primary_care_physician"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
 
 end
