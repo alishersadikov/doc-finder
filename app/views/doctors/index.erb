@@ -2,13 +2,62 @@
   <% if @doctors.present? %>
     <h2>Doctors:</h2>
     <ul style="list-style-type:none;">
-      <% @doctors.each do |doctor| %>
-        <li>
-          <%= link_to "#{doctor.name}, #{doctor.title}", doctor_path(doctor) %>
+      <% @doctors.each_with_index do |doctor, i| %>
+        <li class="doctor-name" data="<%= i %>">
+          <a style="color: blue; text-decoration: underline; cursor: pointer;">
+            <%= "#{doctor.name}, #{doctor.title}" %>
+          </a>
         </li>
+
+        <div id="doctor-<%= i %>-details" hidden>
+          <div style="text-align: center;">
+            <h2>Doctors Details</h2>
+            <table border="1" align="center">
+              <thead>
+                <th>Name</th>
+                <th>Title</th>
+                <th>Specialties</th>
+                <th>Insurances</th>
+                <th>PCP</th>
+              </thead>
+              <tbody>
+                <tr  valign="top">
+                  <td><%= doctor.name %></td>
+                  <td><%= doctor.title %></td>
+                  <td align="left">
+                    <ul>
+                      <% doctor.specialties.each do |specialty| %>
+                        <li><%= specialty %></li>
+                      <% end %>
+                    </ul>
+                  </td>
+                  <td align="left">
+                    <ul>
+                      <% doctor.insurances.each do |insurance| %>
+                        <li><%= insurance %></li>
+                      <% end %>
+                    </ul>
+                  </td>
+                  <td> <%= doctor.primary_care_physician ? 'Yes' : 'No' %> </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <br>
+
       <% end %>
     </ul>
   <% else %>
     <h2>No doctors have been found</h2>
   <% end %>
 </div>
+
+<script>
+  $(".doctor-name").click(function() {
+    var doctorId = $(this).attr('data');
+    $(this).siblings(`#doctor-${doctorId}-details`).toggle();
+  });
+</script>
+
+

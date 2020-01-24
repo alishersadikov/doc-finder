@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class DoctorsController < ApplicationController
   def index
     render :index
