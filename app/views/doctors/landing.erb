@@ -1,0 +1,6 @@
+<%= form_tag("/search", method: "post", style: "width: 100%; padding: 10px; text-align:center;") do %>
+  <h1>Doctor Finder</h1>
+  <%= label_tag(:name, "Search by name:") %>
+  <%= text_field_tag(:name, nil, placeholder: "Name of the Doctor") %>
+  <%= submit_tag("Search") %>
+<% end %>

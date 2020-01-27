@@ -1,6 +1,6 @@
 class DoctorSearchServiceTest < ActiveSupport::TestCase
   def setup
-    stub_request(:get, "#{ENV["API_BASE_URL"]}?name=John&user_key=#{ENV["API_KEY"]}").
+    stub_request(:get, "#{ENV['API_BASE_URL']}?name=John&user_key=#{ENV['API_KEY']}").
       with(headers: {'Accept'=>'*/*', 'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3', 'User-Agent'=>'Faraday v0.15.0'}).
       to_return(status: 200, body: sample_response, headers: {})
   end
