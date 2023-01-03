@@ -7,7 +7,7 @@ gem 'rails', '4.2.11.1'
 #swapping sqlite3 to postgres because this app could be deployed to heroku
 gem 'pg', '~> 0.20.0'
 
-gem 'httparty', '0.17.0'
+gem 'httparty', '0.21.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
